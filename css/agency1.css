@@ -279,23 +279,6 @@ section {
                 }                
             }            
         }
-        .portfolio-caption {
-        	max-width: 400px;
-        	margin: 0 auto;
-        	background-color: white;
-        	text-align: center;
-        	padding: 25px;
-        	h4 {
-        		text-transform: none;
-        		margin: 0;
-        	}
-        	p {
-        		.serif-font;
-        		font-style: italic;
-        		font-size: 16px;
-        		margin: 0;
-        	}
-        }
     }
     * {
         z-index: 2;
@@ -303,7 +286,7 @@ section {
 }
 
 @media(min-width:767px) {
-    #portfolio {
+    #thoughts {
         .portfolio-item {
             margin: 0 0 30px;
         }
