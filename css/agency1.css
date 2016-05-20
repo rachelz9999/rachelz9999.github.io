@@ -240,15 +240,15 @@ section {
 // Thoughts Section
 
 #thoughts {
-    .portfolio-item {
+    .thoughts-item {
         margin: 0 0 15px;
         right: 0;
-        .portfolio-link {
+        .thoughts-link {
             display: block;
             position: relative;
             max-width: 400px;
             margin: 0 auto;
-            .portfolio-hover {
+            .thoughts-hover {
                 background: fade(@brand-primary, 90%);
                 position: absolute;
                 width: 100%;
@@ -260,7 +260,7 @@ section {
                 &:hover {
                     opacity: 1;
                 }
-                .portfolio-hover-content {
+                .thoughts-hover-content {
                     position: absolute;
                     width: 100%;
                     height: 20px;
@@ -279,6 +279,23 @@ section {
                 }                
             }            
         }
+        .thoughts-caption {
+        	max-width: 400px;
+        	margin: 0 auto;
+        	background-color: white;
+        	text-align: center;
+        	padding: 25px;
+        	h4 {
+        		text-transform: none;
+        		margin: 0;
+        	}
+        	p {
+        		.serif-font;
+        		font-style: italic;
+        		font-size: 16px;
+        		margin: 0;
+        	}
+        }
     }
     * {
         z-index: 2;
@@ -287,12 +304,12 @@ section {
 
 @media(min-width:767px) {
     #thoughts {
-        .portfolio-item {
+        .thoughts-item {
             margin: 0 0 30px;
         }
     }
 }
-	.service-heading {
+.service-heading {
 		margin: 15px 0;
 		text-transform: none;
 	}
