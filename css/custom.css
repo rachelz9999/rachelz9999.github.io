@@ -1,0 +1,16 @@
+
+.btn:hover {
+	background-color: #5c5c00;
+}
+.btn:active, .btn-primary:active {
+	background-color: #5c5c00;
+}
+
+/* MODAL */
+.category {
+  color: black;
+  text-decoration: underline;
+}
+.content {
+  list-style-type: none;
+}
