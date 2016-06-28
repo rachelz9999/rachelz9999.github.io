@@ -1,9 +1,11 @@
 
 .btn:hover {
 	background-color: #5c5c00;
+	border-color: #5c5c00;
 }
 .btn:active, .btn-primary:active {
 	background-color: #5c5c00;
+	border-color: #5c5c00;
 }
 
 /* MODAL */
@@ -13,4 +15,32 @@
 }
 .content {
   list-style-type: none;
+}
+.nosho {
+	color: #363636;
+}
+.portfolio-cover {
+	max-width: none;
+	margin: 10px;
+	width: 100%;
+	height: auto;
+	transition: all 0.3s;
+}
+.portfolio-cover:hover {
+	width: 103%;
+	height: auto;
+	margin: 0px;
+}
+
+/* ------------
+	DESIGN
+	-------------- */
+.fadeInBlock {
+	opacity: 0;
+}
+@media only screen and (max-width: 992px) {
+	.design {
+		text-align: center;
+		margin: auto;
+	}
 }
