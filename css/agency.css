@@ -332,20 +332,27 @@ section h3.section-subheading {
     margin: 0
 }
 
-#portfolio .portfolio-item .portfolio-caption {
+.portfolio-caption {
     max-width: 400px;
     margin: 0 auto;
     background-color: #fff;
     text-align: center;
     padding: 25px
 }
+.thoughts-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 25px
+}
 
-#portfolio .portfolio-item .portfolio-caption h4 {
+.portfolio-caption h4 {
     text-transform: none;
     margin: 0
 }
 
-#portfolio .portfolio-item .portfolio-caption p {
+.portfolio-caption p {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-style: italic;
     font-size: 16px;
@@ -357,7 +364,7 @@ section h3.section-subheading {
 }
 
 @media (min-width: 767px) {
-    #portfolio .portfolio-item {
+    .portfolio-item {
         margin:0 0 30px
     }
 }
@@ -773,12 +780,12 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
 
 ::-moz-selection {
     text-shadow: none;
-    background: #738000
+    background: #7380005e
 }
 
 ::selection {
     text-shadow: none;
-    background: #738000
+    background: #7380005e
 }
 
 img::selection {
