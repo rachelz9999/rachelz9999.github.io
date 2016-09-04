@@ -38,6 +38,10 @@
 .fadeInBlock {
 	opacity: 0;
 }
+.designpic {
+	height: auto;
+	width: 53%;
+}
 @media only screen and (max-width: 992px) {
 	.design {
 		text-align: center;
